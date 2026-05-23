@@ -62,6 +62,7 @@ export class InstagramScraper {
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
         "--disable-blink-features=AutomationControlled",
         "--disable-infobars",
         "--window-size=1440,900",

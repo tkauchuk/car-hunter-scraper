@@ -6,7 +6,7 @@ export interface ScraperConfig {
   delayMaxMs: number;
   cookiesPath: string;
   outputPath: string;
-  headless: boolean;
+  headless: "new" | false;
   instagramEmail: string;
   instagramPassword: string;
 }

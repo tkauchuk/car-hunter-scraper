@@ -34,7 +34,7 @@ export const DEFAULT_CONFIG: ScraperConfig = {
   delayMaxMs: 7_000,
   cookiesPath: "cookies.json",
   outputPath: "found_cars.json",
-  headless: true,
+  headless: "new",
   instagramEmail: process.env["IG_EMAIL"] ?? "",
   instagramPassword: process.env["IG_PASSWORD"] ?? "",
 };
