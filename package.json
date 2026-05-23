@@ -1,0 +1,27 @@
+{
+  "name": "car-hunter-scraper",
+  "version": "1.0.0",
+  "description": "Instagram scraper for monitoring car-related posts from target profiles",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": ["instagram", "scraper", "cars", "puppeteer"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.11.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.1.228"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/user-agents": "^1.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
