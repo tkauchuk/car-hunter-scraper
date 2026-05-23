@@ -1,3 +1,10 @@
+# Runtime secrets & output — never commit these
+cookies.json
+found_cars.json
+.env
+.env.*
+!.env.example
+
 # Logs
 logs
 *.log
